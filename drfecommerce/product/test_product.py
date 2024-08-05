@@ -66,7 +66,7 @@ class TestProdect:
             args=[self.product_objects.id]))
         assert response.status_code == 204
 
-    def test_retrieve_exam(self):
+    def test_retrieve_product(self):
         update_data = {
             "name": "Product3",
             "description": "this is Product1",
